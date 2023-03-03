@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid red;
+}
+
+header {
+  border: 1px solid blue;
+}
+
+main {
+  border: 1px solid green;
+  display: flex;
+}
+
+footer {
+  border: 1px solid gray;
+}
+
+aside {
+  border: 1px solid orange;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  display: inline;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
+section {
+  background: url(assets/tech-moms-working.jpg);
+  background-size: cover;
+  width: 70%;
+}
+
+aside {
+  width: 30%;
+  background-color: #07e0e9;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+aside h1 {
+  font-size: medium;
+  font-weight: normal;
+}
+
+aside .subtitle {
+  font-weight: bold;
+}
+
+aside p {
+  font-size: small;
+  line-height: 1.5em;
+}
+
+aside button {
+  background-color: salmon;
+}
